@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobstar San Diego</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+   <!--[if lt IE9]>
+		<script src="scripts/html5shiv.js"></script>
+		<![endif]-->
+   
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link href="../css/imoon.css" rel="stylesheet" type="text/css" />
+        
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  
+    <script src="../scripts/main.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+          }
+        }
+        });
+</script>
+    
+</head>
+<body>
+     <header>
+      <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <a href="../index.html" id="logo">
+          <img  src="../images/Logo.png" alt="job star logo"/>
+      </a>
+      <div id=avatar>
+          <figure>
+           <img src="../images/female_face_sm.png" alt="user avatar" />
+           <figcaption>Hello, Emma</figcaption> 
+           </figure>
+           <div id="user_dropdown">
+            <a href="../pages/my_profile.html">My Profile</a>
+            <a href="../pages/loggedout.html">Logout</a>
+          </div>
+      </div>
+       <nav>
+      <ul id="hb_menu">
+        <li>
+         <ul id="hb_menu1">
+          <li><a href="../pages/jobs.html">JOBS</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'interview')">Interview Preparation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'research')">Online Research</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'tips')">Job Search Tips</a></li>
+          </ul>
+          </li>
+          <li><a href="../pages/resumes.html" class="activeButton">RESUMES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="showTab(event,'cover')">Cover Letters</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'references')">Reference Letters</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'templates')">Templates</a></li>
+          </ul></li>
+          <li><a href="../pages/career_guidance.html">CAREER GUIDANCE</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'selfEval')">Self Evaluation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'network')">Networking</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'branding')">Personal Branding</a></li>
+          </ul>
+          </li>
+          <li><a href="../pages/local_resources.html">LOCAL RESOURCES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'career_centers')">Career Centers</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'libraries')">Libraries</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'rights')">Know Your Rights</a></li>
+          </ul></li>
+        </ul>
+      </li>
+       <li>
+        <ul id="hb_menu2">
+          <li><a href="../pages/my_profile.html">My Profile</a></li>
+          <li><a href="../pages/contact_us.html">Contact Us</a></li>
+          <li><a href="../pages/loggedout.html">Logout</a></li>
+        </ul>
+      </li>
+      </ul>
+      </nav>
+   </header>
+   <main class="clearIt">
+       <div class="subpage resume clearIt " >
+       <h2 id="pageTop">Resumes</h2>
+            <ul class="submenuTab">
+                <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event, 'cover')">Cover Letters</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'references')">Reference Letters</a></li>
+                <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'templates')">Templates</a></li>
+            </ul>
+       <div class="mainpageBg">
+            <article class="mainArticle">
+            <div class="goldBg">
+                <ul class="sideMenu">
+                        <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'cover')">Cover Letters</a>
+                        </li>
+                        <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'references')">Reference Letters</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'templates')">Templates</a></li>
+                </ul>
+                <h3> Perfecting your Resume</h3>
+                <p>Before you start job hunting, make sure that your resume is as complete and up-to-date as possible. Your resume is an important distillation of who you are, where you come from, and what you can offer.</p>
+
+                <p>On this page you will find three sample resumes to download, one which is set up chronologically to your past employment, and skills. The other is functional to address current requests from most employers, whereas the third is a combination of both.</p>
+                </div>
+           </article>
+      
+           <aside class="content">
+               <div>
+                <p>These examples are for you to edit and target to relevant job listings you find. A target resume is a resume that looks as thought it was written for one specific job that is advertised or promoted. Typically, it will include a skills section, usually at
+                the top of a resume that uses keywords that are relevant to the job listing. The work history demonstrates when these skills were used. Some companies use software that count and look for various types of key words.</p>
+                
+                <ul class="resume_templates">
+                    <li><a href="../templates/Chronological_Resume_SD5.pdf" target="_blank"><span data-icon="&#xeadf;" class ="navIcon"></span><p>Chronological Resume</p>
+                    </a>
+                    </li>
+                    <li><a href="../templates/Functional_Resume_SD2.pdf" target="_blank"><span data-icon="&#xeadf;" class ="navIcon"></span><p>Functional Resume</p></a>
+                    </li>
+                    <li><a href="../templates/Combination_Resume.pdf" target="_blank"><span data-icon="&#xeadf;" class ="navIcon"></span><p>Combination Resume</p></a>
+                    </li>
+                </ul>
+                <img class="imgInsert" src="../images/resume_bg.jpg" />
+
+            <a href="#pageTop" class="anchorLink">Back to Top</a>
+            </div>
+       </aside>
+       <div class="clearIt"></div>
+      </div>
+       
+        <aside>
+           <div class="tabcontent" id="cover">
+               <div class="goldBg">
+                   <ul class="sideMenu">
+                        <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'cover')">Cover Letters</a>
+                        </li>
+                        <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'references')">Reference Letters</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'templates')">Templates</a></li>
+                    </ul>
+                    <p>When applying for a job a cover letter should be sent or posted with your resume or curriculum vitae. This collection of free professionally written cover letter examples will help you get started.</p>
+                    <p>
+                    Keep in mind that your letter should express a high level of interest and knowledge about the job you are interested in. Your cover letter will highlight the most relevant experience from your resume and connect that experience with the position you are applying for.
+                    </p>
+                </div>
+                <p>On this page you will find several formats and templates you can use to write your cover letter.These samples, templates and examples of different types of cover letters will give you ideas and suggestions, then customize your own letter so it shows why you should be selected for an inter-view.</p>
+                <ul class="pageLinks goldBg">
+                <li><a href="https://www.thebalance.com/cover-letter-format-2060205" target="_blank">Cover Letter Format</a></li>
+                <li> <a href="https://www.thebalance.com/cover-letter-layout-2060193" target="_blank">Cover Letter Layout</a></li>
+                <li><a href="https://www.thebalance.com/free-cover-letter-examples-and-writing-tips-2060208" target="_blank">Cover Letter Template</a></li>
+                </ul>
+                <button class="back_btn" onclick="back()">Back to Resumes</button>
+                <div class="clearIt"></div>
+            </div>
+       <div class="tabcontent" id="references">
+          <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'cover')">Cover Letters</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'references')">Reference Letters</a></li>
+                <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'templates')">Templates</a></li>
+            </ul>
+           <p class="goldBg">Looking for your first job? Do you need a recommendation, but don&#39;t have professional references you can use? Are you concerned about the references your employer might give you? Consider using a character reference (personal reference) in addition to or as an alternative to employment reference letters.</p>
+              
+          <p>A job referral can also be the best way to get your resume a close look from the hiring manager. When you&#39;re referred for a position, and you mention it in your cover letter, you&#39;ve got a built in recommendation for the job in the first paragraph.</p>
+
+          <p>Employees will often ask a former employer to write them a letter of reference for employment. In these links you will find advice on how to write a reference letter for employment, as well as a sample reference letter written by a former employer.</p>
+         <ul class="pageLinks goldBg">
+             <li><a href="https://www.thebalance.com/character-and-personal-reference-letters-2058723" target="_blank">Character and Personal Reference Letters</a></li>
+             <li><a href="https://www.thebalance.com/how-to-ask-for-a-job-referral-2062989" target="_blank">How to Ask for a Referral for a Job</a></li>
+             <li> <a href="https://www.thebalance.com/reference-letter-samples-2062971" target="_blank">Reference Letter Samples</a></li>
+         </ul>
+         <button class="back_btn" onclick="back()">Back to Resumes</button> 
+       </div>
+        <div class="tabcontent" id="templates">
+           <div class="tabcontent1">
+            <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'cover')">Cover Letters</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'references')">Reference Letters</a></li>
+                <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'templates')">Templates</a></li>
+            </ul>
+           <p class="goldBg">When applying for a job a cover letter resume, references and referral letters should all be of a professional caliber.Keep in mind that you are expressing a high level of interest and knowledge about the job you are interested in and how you present yourself and experience can make you a standout against your peers. </p>
+          <p>Templates that help to achieve this high level of confidence are available, and we have put together some of the best resources for downloading these popular letters and forms.</p>
+          <p>Here you will find several formats and free templates you can use to write your resume, letters, and referrals.The easiest way to create the perfect resume!</p>
+          
+          <ul class="pageLinks goldBg">
+              <li><a href="https://www.resumehelp.com" target="_blank">Resume Help</a></li>
+              <li><a href="https://drive.google.com/templates?q=cover+letter&category" target="_blank">Google Docs</a></li>
+              <li><a href="https://templates.office.com/en-us/Resumes-and-Cover-Letters#" target="_blank">Microsoft Office</a></li>
+              <li><a href="https://www.tidyforms.com/cover-letter-examples.html" target="_blank">Tidyforms</a></li>
+              <li><a href="http://www.officedepot.com/a/businesstools/forms/default/" target="_blank">Office Depot</a></li>
+          </ul>
+
+          <button class="back_btn" onclick="back()">Back to Resumes</button>
+        </div>
+            <img class="imgInsert" src="../images/templates_bg2.png" />
+       </div>
+       <div class="clearIt"></div>
+        </aside>
+       </div>
+   </main>
+   
+   <footer class="clearIt">
+       <nav>
+           <ul class="hover_underline">
+               <li><a href="../pages/about_us.html">About Us</a>
+               </li>
+                <li><a href="../pages/privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="../pages/contact_us.html">Contact Us</a></li>
+           </ul>
+       </nav>
+       <nav>
+          <ul class="social_media">
+             <li>Follow Us:</li>
+              <li><a href="#"><span data-icon="&#xea8d;" class ="navIcon"></span></a></li>
+              <li><a href="#"><span data-icon="&#xea90;" class ="navIcon"></span></a></li>
+              <li><a href="#"><span data-icon="&#xea96;" class ="navIcon"></span></a></li>
+          </ul> 
+         </nav>
+       Jobstar&copy; 2016 -  All Rights Reserved
+       </footer>
+ 
+</body>
+</html>

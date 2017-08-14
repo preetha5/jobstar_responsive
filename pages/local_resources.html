@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobstar San Diego</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    
+    <!--[if lt IE9]>
+		<script src="scripts/html5shiv.js"></script>
+		<![endif]-->
+   
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link href="../css/imoon.css" rel="stylesheet" type="text/css" />
+        
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  
+    <script src="../scripts/main.js" type="text/javascript"></script>
+    
+</head>
+<body>
+<header>
+      <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <a href="../index.html" id="logo">
+          <img  src="../images/Logo.png" alt="job star logo"/>
+      </a>
+      <div id=avatar>
+          <figure>
+           <img src="../images/female_face_sm.png" alt="user avatar" />
+           <figcaption>Hello, Emma</figcaption> 
+           </figure>
+           <div id="user_dropdown">
+            <a href="../pages/my_profile.html">My Profile</a>
+            <a href="../pages/loggedout.html">Logout</a>
+          </div>
+      </div>
+       <nav>
+      <ul id="hb_menu">
+        <li>
+         <ul id="hb_menu1">
+          <li><a href="../pages/jobs.html">JOBS</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'interview')">Interview Preparation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'research')">Online Research</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'tips')">Job Search Tips</a></li>
+          </ul>
+          </li>
+          <li><a href="../pages/resumes.html">RESUMES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'cover')">Cover Letters</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'references')">Reference Letters</a></li>
+              <li> <a href="javascript:void(0)" onClick="goTotab(event,'templates')">Templates</a></li>
+          </ul></li>
+          <li><a href="../pages/career_guidance.html">CAREER GUIDANCE</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'selfEval')">Self Evaluation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'network')">Networking</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'branding')">Personal Branding</a></li>
+          </ul></li>
+          <li><a href="../pages/local_resources.html" class="activeButton">LOCAL RESOURCES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="showTab(event,'career_centers')">Career Centers</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'libraries')">Libraries</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'rights')">Know Your Rights</a></li>
+          </ul></li>
+        </ul>
+      </li>
+       <li>
+        <ul id="hb_menu2">
+          <li><a href="../pages/my_profile.html">My profile</a></li>
+          <li><a href="../pages/contact_us.html">Contact Us</a></li>
+          <li><a href="../pages/loggedout.html">Logout</a></li>
+        </ul>
+    </li>
+      </ul>
+      </nav>
+   </header>
+   <main class="subpage resources">
+        <h2 id="pageTop">LOCAL RESOURCES</h2>
+        <ul class="submenuTab">
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event, 'career_centers')">Career Centers</a>
+            </li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'libraries')">Libraries</a></li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'rights')">Know Your Rights</a></li>
+        </ul>
+        
+        <article class="mainArticle">
+            
+         <div id="job_fairs">
+            <h3>Upcoming Job Fairs and Events in San Diego </h3>
+            <div class="row">
+                <div class="col1">
+                        <a href="https://www.eventbrite.com/e/public-safety-communications-job-fair-october-25th-2016-free-registration-27304390166" target="_blank"><img src="../images/events1.png" alt="picture of job fair"/></a>        
+                </div>
+                <div class="col2">
+                    When: TUE, OCT 25 10:00 AM<br />
+                    What: Public Safety Communication Job Fair<br />
+                    Where: Marina Villa Conference Center- Mission Bay, San Diego<br />
+                    FREE <a href="#">Add event to Calendar</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <a href="https://www.eventbrite.com/e/chaffey-college-job-fair-employer-registration-tickets-28401724322" target="_blank"><img src="../images/events2.png" alt="picture of job fair"/></a>        
+                </div>
+                <div class="col2">
+                    When: TUE, OCT 25 2:00 PM<br />
+                    What: Chaffey College Job Fair <br />
+                    Where: Chaffey College - Fontana Campus, San Diego<br />
+                    FREE <a href="">Add event to Calendar</a>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col1">
+                <a href="https://www.eventbrite.com/e/the-san-diego-union-tribune-career-fair-tickets-28587530072" target="_blank"><img src="../images/events3.png" alt="picture of job fair"/></a>        
+            </div>
+            <div class="col2">
+                When: WED, NOV 2 11:00 AM<br />
+                What: The San Diego Union-Tribune Career Fair<br />
+                Where: Sheraton Mission Valley, San Diego<br />
+                $35.00 <a href="">Add event to Calendar</a>
+            </div>
+        </div>
+           <div class="row">
+            <div class="col1">
+                <a href="https://www.eventbrite.com/e/san-diegos-16th-annual-diversity-employment-day-career-fair-tickets-26889673738"><img src="../images/events4.png" alt="picture of job fair"/></a>        
+            </div>
+            <div class="col2">
+                When:  FRI, NOV 4 11:00 AM<br />
+                What: San Diego Annual Diversity
+                Employment Day Career Fair<br />
+                Where:  Handlery Hotel San Diego<br />
+                FREE <a href="">Add event to Calendar</a>
+            </div>
+            </div>
+            <div class="pageIcon">
+                <a href="#"><span data-icon="&#xea44;" class ="navIcon"></span></a>&nbsp;1 2 3&nbsp;<a href="#"><span data-icon="&#xea42;" class ="navIcon"></span></a>
+            </div>
+            <p>There are many types of job and career fairs — from one's scheduled on campus for college students to industry-specific ones for professionals — but they all have one common theme: it’s a chance for a company to meet and screen a large volume of potential job candidates.</p>
+
+            <p>
+                Keep checking this page for more updates about current and future events in your community. In addition you can sign up to our weekly event newsletter and never be out of touch with networking events in your city.
+            </p>
+        
+            <ul class="pageLinks">
+                <li><a href="http://www.ccncm.com/4%20reasons%20to%20attend%20job%20fairs%20with%20preparation%20techniques.pdf" target="_blank"> Four Reasons Why Attending a Job Fair is important</a></li>
+                </ul>
+                 <a href="#pageTop" class="anchorLink">Back to Top</a>
+        </div>
+
+        </article>
+        <article class="sidebar">
+            <div class="goldBg ">
+            <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class=" tablinks btn1" onclick="showTab(event, 'career_centers')">Career Centers</a>
+                </li>
+                <li><a href="javascript:void(0)" class=" tablinks btn2" onclick="showTab(event,'libraries')">Libraries</a></li>
+                <li><a href="javascript:void(0)" class=" tablinks btn3" onclick="showTab(event,'rights')">Know Your Rights</a></li>
+                </ul>
+        </div>
+        </article>
+        <aside>
+            <div class="tabcontent" id="career_centers">
+            <p class="goldBg">There are a number of factors that influence your career development, including your interests, abilities, values, personality, background, and circumstances. Career Counseling is a process that will help you to know and understand yourself and the world of work in order to make career, educational, and life decisions. Every major city will have non-profit or for-profit institutions that can guide you from making resumes, interviewing tips to researching your industry. As a job seeker , you can definitely make use of these services.</p>
+            <p>To find career help close to home, select an area:</p>
+            <p>[All]<a href="#"> [San Diego City x]</a><a href="#"> [East San Diego County x]</a><a href="#"> [North San Diego County x]</a><a href="#"> [South San Diego County x]</a><a href="#"> [Imperial County x]</a></p>
+            <table>
+                <tr>
+                    <td><a href="#">Able-Disabled Advocacy</a><br /> 
+                    4283 El Cajon Blvd,. Ste. 110
+                    San Diego, CA 92105
+                    (619) 231-5990 voice &amp; TTY.</td>
+                    <td>Vocational assessment and counseling, job training, employment services, work preparation, &amp; computer literacy classes for disabled persons. 
+                    COST: Free if eligible.</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Access, Inc.</a>  
+                    2612 Daniel Ave.
+                    San Diego, CA 92111
+                    (858) 560-0871.</td>
+                    <td>
+                    Non-profit organization offering job training, computer training, and job placement assistance to youth (16-21) and adults. Adults must live within San Diego city limits.
+                    Out-of-school program available year-round to high risk youth. Hire-a-youth program during the summer. Immigration legal assistance available. 
+                    COST: Free if eligible; fees for some services.
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#">Center for Employment Training--San Diego </a><br />  
+                    3295 Market St.
+                    San Diego, CA 92102
+                    (619) 233-6829
+                    (800) 533-2519 connects caller to nearest CET office.</td>
+                    <td>
+                    Job training and job placement assistance. Classes: citizenship, GED, non-English speaking. Special programs for migrant workers. 
+                    COST: Free if eligible.
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#">Comprehensive Training Services--City Heights Campus </a><br />5348 University Ave., Ste. 210
+            San Diego, CA 92105
+            (619) 582-9133.</td>
+                    <td>
+                    Job listings, employment counselors, job development/job search workshops, employment training. 
+                    COST: Free if eligible.
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#">Adult Education</a>  
+                    <br />
+                    Sweetwater Union High School Distruct
+                    461 Moss St.
+                    Chula Vista, CA 91911
+                    (619) 691-5680.</td>
+                    <td>
+                    Adult education classes for those 18 years or older for GED and employment training such as auto mechanic, construction worker, electronic technician and more.COST: Free to residents; non-resident fees.
+                    </td>
+                </tr>
+            </table>
+            <div class="pageIcon">
+            <a href="#"><span data-icon="&#xea44;" class ="navIcon"></span></a>&nbsp;1 2 3&nbsp;<a href="#"><span data-icon="&#xea42;" class ="navIcon"></span></a>
+        </div>
+            <button class="back_btn" onclick="back()">Back to Resources</button>
+            </div>
+            
+            <div class="tabcontent" id="libraries">
+              <p class="goldBg">Public libraries near you are another useful resource when it comes to learning about the industry you want to work in or your targeted companies. Sign up for the events newsletter to be informed about career coaching sessions.</p>
+              
+              <h3>Public Libraries in Cyberspace</h3>
+              <p>Visit your public library on the web for information about locations, hours, services and programs. Many libraries offer access to their catalogs of books, audiovisual materials, magazines, community information and other riches. Check the library's web page for information on how to connect to the catalog and other services</p>
+              <p>San Diego County :<br />
+              <a href="http://www.sdcl.org/locations_ALL-BRANCHES.html">San Diego County Library branches and locations</a></p>
+             
+             <button class="back_btn" onclick="back()">Back to Resources</button>
+            </div>
+            
+            <div class="tabcontent" id="rights">
+              <p class="goldBg">Whether you are unemployed, disabled , an immigrant job seeke or have a family situation needing you to have a break in employment, you need to know your rights as an employee. These pages provide with direct links to state and federal websites  where you can learn more about your legal rights in your place of work </p>
+              <h3>EMPLOYMENT LAWS</h3>
+              <ul class="pageLinks">
+                  <li><a href="http://www.dir.ca.gov/dlse/">Labor Commissioner</a></li>
+                  <li><a href="http://www.dir.ca.gov/dlse/DLSE-Publications.htm">Labor Commissioner Forms and Flyers</a></li>
+                  <li><a href="http://www.dir.ca.gov/dlse/DLSEManual/dlse_enfcmanual.pdf">Enforcement Policies and Interpretation Manual</a></li>
+              </ul>
+              <h3> Disablity Insurance and Paid Family leave benefits</h3>
+              <p>The California State Disability Insurance (SDI) program provides short-term Disability Insurance (DI) and Paid Family Leave (PFL) wage replacement benefits to eligible workers who need time off work. You may be eligible for DI if you are unable to work due to non-work-related illness or injury, pregnancy, or childbirth. You may be eligible for PFL to care for a seriously ill family member or to bond with a new child. To file for benefits, visit SDI Online.<br />
+            More Info : <a href="http://www.edd.ca.gov/Disability/Disability_Insurance.htm">California Disablity Insurance information</a></p>
+             <h3>Unemployment Insurance</h3>
+             <p>The Unemployment Insurance (UI) program pays benefits to workers who have lost their job and meet the program’s eligibility requirements. If you have become unemployed, you may file a UI claim. You may be eligible for UI benefits if you meet all eligibility requirements. After you have filed a claim, you must continue to certify for benefits and meet eligibility requirements in order for the EDD to pay you benefits.<br />
+             How to file a claim:<a href="http://www.edd.ca.gov/unemployment/Filing_a_Claim.htm"> Filing a Claim</a></p>
+             <h3>Discrimination Laws in California</h3>
+             <p>Both Federal and California laws prohibit discrimination in the workplace based on an employee’s “protected characteristics”. Under California’s broad, pro-employee laws (perhaps the best in the US), “protected characteristics” mean: “race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, marital status sex, age, or sexual orientation”.<br />More information about filing a claim with the DFEH can be found at <a href="http://www.dfeh.ca.gov">http://www.dfeh.ca.gov</a>
+             </p>
+              <button class="back_btn" onclick="back()">Back to Resources</button>
+            </div>
+        </aside>
+   </main>
+   <footer class="clearIt">
+           <nav>
+               <ul class="hover_underline">
+                   <li><a href="../pages/about_us.html">About Us</a>
+               </li>
+                <li><a href="../pages/privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="../pages/contact_us.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <nav>
+              <ul class="social_media">
+                 <li>Follow Us:</li>
+                  <li><a href="#"><span data-icon="&#xea8d;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea90;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea96;" class ="navIcon"></span></a></li>
+              </ul> 
+             </nav>
+       Jobstar&copy; 2016 -  All Rights Reserved
+       </footer>
+</body>
+</html>

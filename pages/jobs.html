@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobstar San Diego</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link href="../css/imoon.css" rel="stylesheet" type="text/css" />
+        
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  
+    <script src="../scripts/main.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+          }
+        }
+        });
+</script>
+    
+</head>
+<body>
+  <header>
+      <div href="#" class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <a href="../index.html" id="logo">
+          <img  src="../images/Logo.png" alt="job star logo"/>
+      </a>
+      <div id=avatar>
+          <figure>
+           <img src="../images/female_face_sm.png" alt="user avatar" />
+           <figcaption>Hello, Emma</figcaption> 
+           </figure>
+           <div id="user_dropdown">
+            <a href="../pages/my_profile.html">My Profile</a>
+            <a href="../pages/loggedout.html">Logout</a>
+          </div>
+      </div>
+       <nav>
+ <ul id="hb_menu">
+        <li>
+         <ul id="hb_menu1">
+          <li><a href="../pages/jobs.html" class="activeButton">JOBS</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="showTab(event,'interview')">Interview Preparation</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'research')">Online Research</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'tips')">Job Search Tips</a></li>
+          </ul>
+          </li>
+          <li><a href="../pages/resumes.html">RESUMES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'cover')">Cover Letters</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'references')">Reference Letters</a></li>
+              <li> <a href="javascript:void(0)" onClick="goTotab(event,'templates')">Templates</a></li>
+          </ul></li>
+          <li><a href="../pages/career_guidance.html">CAREER GUIDANCE</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'selfEval')">Self Evaluation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'network')">Networking</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'branding')">Personal Branding</a></li>
+          </ul></li>
+          <li><a href="../pages/local_resources.html">LOCAL RESOURCES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'career_centers')">Career Centers</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'libraries')">Libraries</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'rights')">Know Your Rights</a></li>
+          </ul></li>
+        </ul>
+        </li>
+        <li>
+        <ul id="hb_menu2">
+          <li><a href="../pages/my_profile.html">My Profile</a></li>
+          <li><a href="../pages/contact_us.html">Contact Us</a></li>
+          <li><a href="../pages/loggedout.html">Logout</a></li>
+        </ul>
+        </li>
+      </ul>
+      </nav>
+   </header>
+   <main class="subpage jobs">
+       
+        <h2 id="pageTop">JOBS</h2>
+        <ul class="submenuTab">
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event, 'interview')">Interview Preparation</a>
+            </li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'research')">Online Research</a></li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'tips')">Job search tips</a></li>
+        </ul>
+        
+        <article class="mainArticle">
+           <nav>
+            <ul class="sideMenu">
+                        <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'interview')">Interview Preparation</a>
+                        </li>
+                        <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'research')">Online Research</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'tips')">Job search tips</a></li>
+                </ul>
+                </nav>
+                <div class="goldBg">
+            <p>Whether you recently lost your job, looking for another one or ready to jump ship from your current one, getting a new position through the want ads might not be that simple. The good news is that there are many other avenues to pursue.
+            Explore JobStar.org variety of articles and resources dedicated to help you with your job search in San Diego area.</p>
+            <p>Get help with creating top notch resume and cover letter; Find out about most common interview question and how to answer them right. Learn how to navigate in the word of online job-ads and how to apply jobs which never posted.  Discover local networking opportunities and build your personal brand. Get familiar with local top employers and  available salary. San Diego area is not an easy place to find a job but no worries JobStar is here to help !Here some quick tips to get it started:</p></div>
+            
+            </article>
+            
+           <div class="mainBg">
+            <aside class="content">
+            <img src="../images/jobs_bg.png" class="imgInsert" alt= "picture of job seraching guy"/>
+            <div class="goldBg1 columnJobs">
+                 
+                  <h3>Tap your network</h3>
+                  <p>Everybody knows somebody. Within your existing network there are probably three jobs that would be appropriate for you, but the people who could help open doors to those jobs just haven’t thought of you. Make a list of everyone you know. Set a goal to touch base with three people you have not talked to for a year or more.</p>
+                  <h3>Connect with alumni</h3>
+                  <p>We generally like people who have something in common with us. Those who share the same values or hobbies; or have gone to the same school. Call the alumni in your region, go to meetings and grow your network.</p>
+                  <h3>Attend events</h3>
+                  <p>These include ones hosted by charities and professional organizations. Talk to at least one person at every meeting who you haven’t met yet. If you can get the list of attendees beforehand, identify at least one person who you would like to meet and make arrangements to connect there in person.</p>
+                  <h3>Use LinkedIn to maximum effect</h3>
+                  <p>LinkedIn is a powerful tool to easily connect with the right people. Search your target market based on your industry, qualifications, university and interests, and connect with the people who interest you.</p>
+                  <h3>Check job boards</h3>
+                  <p>Many companies and recruiters use them to find the right candidate. Define the top job boards for your skill set and put your resume there. Choose a catchy, succinct headline that encourages the reader to open the attachment.</p>
+                  <h3>Contact headhunters</h3>
+                  <p>Senior-level professionals are recruited almost exclusively through recommendation or by headhunters. We know about jobs that will never be advertised and we have experience finding openings. </p>
+              
+                  <a href="#pageTop" class="anchorLink">Back to Top</a> 
+            </div>
+           </aside>
+           </div>
+        
+        
+<!--           <div class="mainBg">-->
+            <aside>
+            <div class="tabcontent" id="interview">
+            
+                <div class="tabcontent3">
+                <div class="goldBg">
+                    <ul class="sideMenu">
+                          <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'interview')">Interview Preparation</a>
+                        </li>
+                        <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'research')">Online Research</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'tips')">Job search tips</a></li>
+                    </ul>
+
+                <h3>Best Job Interviewing Tips</h3>
+                <p> As its known preparation always helps before an interview. Follow these ten tips to succeed in your interview. </p>
+                </div>
+                </div>
+
+                 <div class="mainBg">
+                    <div class="goldBg1 tabcontent2"> 
+                    <div class="columnJobs1">
+
+                     <h3>Conduct Research on the Employer</h3>
+                      <p>Hiring Manager, Job Opportunity. Success in a job interview starts with a solid foundation of knowledge on the job-seeker’s part. You should understand the employer, the requirements of the job, and the background of the person (or people) interviewing you. The more research you conduct, the more you’ll understand the employer, and the better you’ll be able to answer interview questions (as well as ask insightful questions). Information sources include the organization’s Website and other published materials, search engines, research tools, and your network of contacts.</p>
+
+                      <h3>Review Common Interview Questions and Prepare Responses</h3>
+                      <p>Another key to interview success is preparing responses to expected interview questions. First, inquire as to the type of interview to expect (which you can do by asking your contact person at the organization). Your goal is composing detailed yet concise responses, focusing on specific examples and accomplishments. A good tool for remembering your responses is to put them into story form that you can tell in the interview. No need to memorize responses (in fact, it’s best not to), but at least develop talking points.</p>
+                      <h3>Dress for Success</h3>
+                      <p>Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under — and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview — and if possible, brush your teeth or use mouthwash.</p>
+                      <h3>Arrive on Time for the Interview — Prepared for Success</h3>
+                      <p>
+                          There is no excuse for ever arriving late for an interview — other than some sort of disaster. Strive to arrive about 15 minutes before your scheduled interview to complete additional paperwork and allow yourself time to get settled. Arriving a bit early is also a chance to observe the dynamics of the workplace.
+                          <br />The day before the interview, pack up extra copies of your resume or CV and reference list. If you have a portfolio or samples of your work, bring those along too. Finally, remember to pack several pens and a pad of paper to jot notes. Finally, as you get to the offices, shut off your cell phone. (And if you were chewing gum, get rid of it.)
+                      </p>
+
+                      <h3>Make Good First Impressions — to Everyone You Encounter</h3>
+                      <p>A cardinal rule of interviewing: Be polite and offer warm greetings to everyone you meet — from parking attendant or receptionist to the hiring manager. Employers often are curious how job applicants treat staff members — and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions — the ones interviewers make in the first few seconds of greeting you — can make or break an interview. Make a strong first impression by dressing well, arriving early, and when greeting your interviewer, stand, smile, make eye contact, and offer a firm (neither limp, nor bone-crushing) handshake. Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview; studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.</p>
+
+                      <h3>Be Authentic, Upbeat, Focused, Confident, Candid, and Concise</h3>
+
+                      <p>Once the interview starts, the key to success is the quality and delivery of your responses. Your goal should always be authenticity, responding truthfully to interview questions. At the same time, your goal is to get to the next step, so you’ll want to provide focused responses that showcase your skills, experience, and fit — with the job and the employer. 
+                      <br />Provide solid examples of solutions and accomplishments — but keep your responses short and to the point. By preparing responses to common interview questions, you’ll ideally avoid long, rambling responses that bore interviewers. Always attempt to keep your interview responses short and to the point. Finally, no matter how much an interviewer might bait you, never badmouth a previous employer, boss, or co-worker.</p>
+
+                      <h3>Remember Body Language, Avoiding Bad Habits</h3>
+
+                      <p>While the content of your interview responses is paramount, poor body language can be a distraction at best — or a reason not to hire you at worst. Effective forms of body language: smiling, eye contact, solid posture, active listening, nodding. Detrimental forms of body language: slouching, looking off in the distance, playing with pen, fidgeting in chair, brushing back hair, touching face, chewing gum, mumbling.</p>
+                      <h3>Ask Insightful Questions</h3>
+                      <p>Studies continually show that employers make a judgment about an applicant’s interest in the job by whether or not the interviewee asks questions. Thus, even if the hiring manager was thorough in his or her discussions about the job opening and what is expected, you must ask a few questions. The smart job-seeker prepares questions to ask days before the interview, adding any additional queries that might arise from the interview.</p>
+
+                      <h3>Sell Yourself Throughout and then Close the Deal</h3>
+
+                      <p>
+                      An adage in interviewing says the most qualified applicant is not always the one who is hired — which means the hired candidate is often the job-seeker who does the best job in responding to interview questions and showcasing his or her fit with the job, department, and organization. Some liken the job interview to a sales call. You are the salesperson — and the product you are selling to the employer is your ability to fill the organization’s needs, solve its problems, propel its success.
+                      <br />Finally, as the interview winds down, ask about the next steps in the process and the timetable the employer expects to use to make a decision about the position. If you are applying for a sales job — or a position requiring equivalent aggressiveness — consider asking for the job at the end of the interview.
+                    </p>
+
+                      <h3>Thank Interviewer(s) in Person, by Email, and Postal Mail</h3>
+
+                      <p>As you have already seen from previous tips, common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you. Writing thank-you emails and notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who did not bother to send thank-you’s.
+                        </p>
+                    <div class="end">
+                        <h3>Final Thoughts on Job Interview Success</h3>
+
+                        <p>Succeeding in job interviews takes research, practice, and persistence. The more effort you put into your interview preparation, the more success you’ll see in obtaining job offers — especially if you remember and follow these 10 job interviewing tips.</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <button class="back_btn" onclick="back()">Back to Jobs</button>
+            </div>
+            
+            <div class="tabcontent" id="research">
+                <div class="tabcontent1">
+                    <div class="goldBg">
+                         <ul class="sideMenu">
+                            <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'interview')">Interview Preparation</a>
+                            </li>
+                            <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'research')">Online Research</a></li>
+                            <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'tips')">Job search tips</a></li>
+                        </ul>
+                        <div class="goldBg">
+                        <h3>Researching Companies</h3>
+                        <p >Industry trends, areas of growth, leading companies, companies in your geographic area, "insider" tips on skills in demand, products or services in greatest demand, new technologies.You should be using what you know about your industry to create a list of "hot" companies that match your needs, skills and experiences.</p>
+                        <p>Use these sites to compile a list of employers in your target industry and location.
+                        Examples: commercial laboratories in Riverside, restaurants in Sonoma, biotechnology in Santa Cruz. Explore
+                        areas around you and find out about main employers in San diego. Casino, Navi Base or Biotech Companies? Who has the best pay or provides training? 
+                        </p>
+                        <ul>
+                            <li><a href="http://www.superpages.com/" target="_blank">SuperPages</a> is one of the best. You can enter a TYPE of business ("insurance" or "real estate") and a city and state.</li>
+                            <li><a href="http://www.switchboard.com/" target="_blank">SwitchBoard.com</a> is another excellent resource.</li>
+                        </ul>
+                        </div>
+                </div>
+                </div>
+                 <div class="mainBg">
+                <div class="goldBg1 tabcontent2">
+                <div class="columnJobs2">
+                    <h3>Search for associations in your profession or industry</h3>
+                    <p>
+                    Go to <a href="https://www.yahoo.com/" target="_blank">Yahoo!</a> or <a href="https://search.yahoo.com/?fr=altavista" target="_blank">Altavista</a> and search by the most precise keyword that applies to your setting ("orthopedic" or "giftware" or "auditing.") Be prepared to use a more general term if your results are low or an even more precise term if you get too many results.
+                    If you know the name of an association serving your interests, try searching by the association name.
+                    NOTE: As you examine your search results, check the links within each site for possible resources.
+                    </p>
+                    <h3>Search for resources in your target industry</h3>
+                    <p>Go to <a href="http://www.sddt.com/BusinessDirectory/" target="_blank" >San Diego Business Directory</a> and search by the most precise keyword that applies to your industry ("human resources" or "telecommunications" or "biopharmaceuticals.") Be prepared to use a more general term if your results are low or an even more precise term if you get too many results.
+                    If you know the name of an industry publication, try searching by the publication's name.</p>
+                    <div class="end1">
+                    <img src="../images/couch.jpg" alt="lady on the couch"/>
+                    </div>
+                    </div>
+                </div>
+
+                <button class="back_btn" onclick="back()">Back to Jobs</button>
+                </div>
+            </div>
+            
+            <div class="tabcontent" id="tips">
+             <div class="tabcontent1">
+                <ul class="sideMenu">
+                       <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'interview')">Interview Preparation</a>
+                        </li>
+                        <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'research')">Online Research</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'tips')">Job search tips</a></li>
+                    </ul>
+                     <h3>Focus on your selling points</h3>
+                
+                    <p class="goldBg"><strong>Why should an employer hire you?</strong> Be specific. And creative. The key is to know (or be able to imagine) what the employer <strong>needs</strong>. Your experience, research and networking will help you do this!
+                    </p>
+                </div>
+              <div class="mainBg">
+                    <div class="goldBg1 tabcontent2">
+                    <div class="columnJobs2">
+
+                    <p>You'll need to know as much as you can about the tasks, skills, and experiences your new employer is looking for. You'll learn more about that in Steps 2-4. For now, focus on what YOU have to offer. As you learn more about employer needs, you will pick up the best ways to present your selling points.</p>
+                    <p>Your selling points are based on your performance (proven track record), experience, and training as well as on your own preferences--What do you LIKE to do? What do you do WELL? What do you want to LEARN and keep on learning?
+                    </p>
+                    <p>Make sure your resume <strong>spells out your selling points</strong> so the employer doesn't have to "read between the lines" or guess. [See JobStar's <a href="../pages/resumes.html" >Resume</a> Section to learn more about writing a good resume for your situation.]</p>
+
+                    <p>(STUCK AT STEP 1?) - Getting Unstuck </p>
+                    <ul>
+                        <li>Explore your local newspaper Job Ad section like the <a href="http://www.sandiegouniontribune.com/classifieds/" target="_blank">San Diego Union Tribune</a>. This time you're not looking for a job, you're looking at the position descriptions. When you see a "I can do that" requirement or need in a job ad, write it down. Create a list of "I can do that" statements. Make sure these are things you WANT to do. Then, in another column, write down PERFORMANCE statements that show where and how you have done this activity and the value to the employer.</li>
+                        <li>
+                            Take a look at other resumes in your field with
+                            <a href="https://www.ziprecruiter.com/resume-database/search" target="_blank">Ziprecruiter's Resume Listings</a> . Note that the resumes you see here aren't necessarily GOOD resumes--but you'll get an idea of how others in your field present themselves and their selling points.
+                        </li>
+                        <li>
+                            Visit a <a href="http://www.metrocareercenters.org/" target="_blank" >San Diego Career Center</a> for help with defining your selling points. Career Centers are EXCELLENT at helping you work through a definition of your selling points and goals. Classes, workshops, resource centers and individual counseling can make a big difference to your job search )
+                        </li>
+                    </ul>
+                <dl>
+                    <dt>Focus on one position and one target industry</dt>
+                    <dd>
+                        <p>You're going to be tracking down employers who are the <strong>best</strong> match for your selling points. You MUST limit your search to develop a list of target employers.</p>
+                        <p>As you work through the next steps, you'll begin to see more possibilities. But don't get side-tracked. Make notes of other positions and target industries that interest you--you can begin the process again using THAT focus if you later decide to redirect your search.
+                        </p>
+                        <p>You must have a focus and stick to it to even <strong>begin</strong> a Hidden Job Market search.
+                        </p>
+                        <p>Examples of POSITION and TARGET industry focus.These statements are related to the selling points in Step 1</p>
+                        <ul>
+                        <li><strong>EVENTS COORDINATOR</strong> for a <strong>chamber of commerce</strong> in Los Angeles.</li>
+                        <li><strong>MECHANICAL ENGINEER</strong> at <strong>scientific instrumentation company specializing in mass-spectrometry or gas chromatography</strong> Will consider smaller companies or startups. Relocation possible.
+                        </li>
+                       <li><strong>ONLINE RESEARCHER</strong> for a <strong> law firm specializing in patents and trademarks.</strong></li>
+                        <li><strong>AUDITOR </strong> for a <strong>  health-related nonprofit organization</strong></li>  
+                        </ul>
+                    </dd>
+                    <dt>Develop a Custom List of Targeted Employers</dt>
+                    <dd>
+                        <p>Begin by listing the employers you already know who match your focus: name, location, any other information. If your target statement matches a previous employer, add that firm's competitors to the list.</p>
+                        <p>A. Develop a list of keywords describing the target industry:</p>
+                        <ul>
+                            <li>Restaurants</li>
+                            <li>Diners</li>
+                            <li>Family Dining Establishments</li>
+                            <li>Retail Food Service</li>
+                            <li>Truck Stops</li>
+                        </ul>
+                        <p>B. Search for companies that match your focus.</p>
+                    </dd>
+                    <dt>Grow your list by learning more about your target industry</dt>
+                    <dd>
+                        <p>You may discover that your industry definition still needs more work or that you need to broaden your geographic requirements to produce a larger list of employers. No matter how long you have worked in a field, there will be new employer names to discover: start-ups, suppliers, allied businesses. Let's say our breakfast cook is stuck. He may want to investigate:</p>
+                        <ul>
+                            <li>Airline food service production</li>
+                            <li>Corporate food services</li>
+                            <li>Hotel food services</li>
+                            <li>College and university food services</li>
+                            <li>Large catering companies</li>
+                            <li>And the whole world of commercial baking, if he has interest/skills in that area.</li>
+                        </ul>
+                        <p>To repeat: it is essential to "chase" one industry at a time so you can learn as much as you can and find smaller companies or companies that are not especially well-known. As you move from one related target industry to another, you may also find that employers are looking for different skills or selling points. Our cook's duties may vary with the setting: purchasing, supervising other operations, keeping accounts or assisting with presentations to potential clients may be required in one setting and not in another.</p>
+                    </dd>
+                    <dt>Get Help</dt>
+                    <dd>
+                        <p>Using the Hidden Job Market is a LOT of work--and often requires skills that aren't part of your regular job (sales &amp; marketing, research, public relations, project management.)</p>
+                        <p>Job search support groups and Career Centers can help you work your plan with other motivated job seekers. Classes and workshops will help you get "grounded" and solve problems along the way.</p>
+                    </dd>
+                <button class="back_btn" onclick="back()">Back to Jobs</button>
+            </dl>
+        </div>
+        </div>
+        </div>
+        </div>
+       </aside>
+<!--       </div>-->
+       
+          
+   
+     <footer class="clearIt">
+       <nav>
+           <ul class="hover_underline">
+               <li><a href="../pages/about_us.html">About Us</a>
+               </li>
+                <li><a href="../pages/privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="../pages/contact_us.html">Contact Us</a></li>
+           </ul>
+       </nav>
+       <nav>
+          <ul class="social_media">
+           <li>Follow Us:</li>
+                  <li><a href="#"><span data-icon="&#xea8d;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea90;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea96;" class ="navIcon"></span></a></li>
+              </ul> 
+         </nav>
+       Jobstar&copy; 2016 -  All Rights Reserved</footer>
+       </main>
+</body>
+</html>

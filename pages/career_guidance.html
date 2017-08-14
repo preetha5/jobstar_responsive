@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobstar San Diego</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    
+    <!--[if lt IE9]>
+		<script src="scripts/html5shiv.js"></script>
+		<![endif]-->
+   
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link href="../css/imoon.css" rel="stylesheet" type="text/css" />
+        
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  
+    <script src="../scripts/main.js" type="text/javascript"></script>
+    
+</head>
+<body>
+ <header>
+      <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <a href="../index.html" id="logo">
+          <img  src="../images/Logo.png" alt="job star logo"/>
+      </a>
+      <div id=avatar>
+          <figure>
+           <img src="../images/female_face_sm.png" alt="user avatar" />
+           <figcaption>Hello, Emma</figcaption> 
+           </figure>
+           <div id="user_dropdown">
+            <a href="../pages/my_profile.html">My Profile</a>
+            <a href="../pages/loggedout.html">Logout</a>
+          </div>
+      </div>
+       <nav>
+      <ul id="hb_menu">
+        <li>
+         <ul id="hb_menu1">
+          <li><a href="../pages/jobs.html">JOBS</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'interview')">Interview Preparation</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'research')">Online Research</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'tips')">Job Search Tips</a></li>
+          </ul>
+          </li>
+          <li><a href="../pages/resumes.html">RESUMES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'cover')">Cover Letters</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'references')">Reference Letters</a></li>
+              <li> <a href="javascript:void(0)" onClick="goTotab(event,'templates')">Templates</a></li>
+          </ul></li>
+          <li><a href="../pages/career_guidance.html" class="activeButton">CAREER GUIDANCE</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="showTab(event,'selfEval')">Self Evaluation</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'network')">Networking</a></li>
+              <li><a href="javascript:void(0)" onClick="showTab(event,'branding')">Personal Branding</a></li>
+          </ul></li>
+          <li><a href="../pages/local_resources.html">LOCAL RESOURCES</a>
+          <ul class="flyout">
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'career_centers')">Career Centers</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'libraries')">Libraries</a></li>
+              <li><a href="javascript:void(0)" onClick="goTotab(event,'rights')">Know Your Rights</a></li>
+          </ul></li>
+        </ul>
+        </li>
+        <li>
+        <ul id="hb_menu2">
+          <li><a href="../pages/my_profile.html">My Profile</a></li>
+          <li><a href="../pages/contact_us.html">Contact Us</a></li>
+          <li><a href="../pages/loggedout.html">Logout</a></li>
+        </ul>
+        </li>
+      </ul>
+      </nav>
+   </header>
+   <main class="subpage career">
+        <h2 id="pageTop">Career Guidance</h2>
+        <ul class="submenuTab">
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event, 'selfEval')">Self Evaluation</a>
+            </li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'network')">Networking</a></li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="showTab(event,'branding')">Personal Branding</a></li>
+        </ul>
+        
+        <article class="mainArticle">
+        <nav>
+            <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'selfEval')">Self Evaluation</a>
+                </li>
+                <li><a href="javascript:void(0)" class=" tablinks btn2" onclick="showTab(event,'network')">Networking</a></li>
+                <li><a href="javascript:void(0)" class=" btn3" onclick="showTab(event,'branding')">Personal Branding</a></li>
+                </ul>
+        </nav>
+        <p class="goldBg">You’re probably going to spend 21.8 percent of your waking hours devoted to work. That’s a big chunk of your lifetime! So finding a career that brings personal fulfillment plus pays the bills is vital. The right job can make you happy; it’s just a matter of matching your goals with your skills and personality. MyCareerGuide.com will help you with career advice on your job search to find a rewarding career.</p>
+        
+        <p>JobStar SanDiego will help direct you to career advice and job search articles to select the right career path. Career advice and career assessment tools help you to find your potential and move ahead with your desired career path.</p>
+        
+        <p>JobStar.com wants you to make the most of your working life. If you need further assistance in your search for the career of your dreams, here are some useful sites you should visit.</p>
+        
+        </article>
+        <aside class="content">
+            <div class="goldBg">
+               <ul class="pageLinks">
+                    <li><a href="http://www.mycareerguide.com/career-options/articles/Top-10-Career-Advancement.html" target="_blank">What do you want from life?</a></li>
+                    <li> <a href="http://www.mycareerguide.com/career-options/articles/Should-You-Telework.html" target="_blank">Should you telework/telecommute?</a></li>
+                </ul>
+                <p>FREE MAPP APPRAISAL</p>
+                <p>The MAPP Motivation Appraisal of personal Potential reveals the real you. Find out what kinds of work you’re most qualified for from the standpoint of your personality, your interests and your goals. This is an essential first step for serious career planners, career changers and prospective college students.</p>
+                <ul class="pageLinks">
+                <li>
+                <a href="http://www.assessment.com" target="_blank">Take the MAPP Career Test now!</a></li>
+                <li> <a href="http://www.mycareerguide.com/career-options/articles/Nine-Career-Zappers.html" target="_blank">Nine Career "Zappers"</a></li>
+                <li> <a href="http://www.mycareerguide.com/career-options/articles/Should-You-Telework.html" target="_blank">How to start a profitable home-based business?</a></li>
+                </ul>
+                <a href="#pageTop" class="anchorLink">Back to Top</a>
+            </div>
+            <div class="tabcontent2">
+                <img class="imgInsert" src="../images/Career%20Guidance2.png" />
+            </div>
+        </aside>
+        <aside>
+            <div class="tabcontent" id="selfEval">
+            <div class="tabcontent1">
+                <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'selfEval')">Self Evaluation</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'network')">Networking</a></li>
+                <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'branding')">Personal Branding</a></li>
+            </ul>
+            <p class="goldBg">DO YOU EARN WHAT YOU’RE WORTH?<br />You’re a hard worker and take pride in your performance on the job. But do you make the kind of money that your position typically pays, and could you enjoy better compensation in a different position or related field? Get the answers here!</p>
+            
+            <h3>How to Determine Prevailing Wage Rates?</h3>
+            <p>Wage rates are set for each classification of crafts and trades. Usually - but not always - rates are based on regional collective bargaining agreements.
+            <p>Federal wage rates are available at the U.S. Government Printing Office Davis-Bacon Wage Determinations page(link is external). Federal wages are in effect for the duration of a project.</p>
+            
+            <p>State wage rates are available at the CA Division of Labor Statistics and Research web page(link is external). A single asterisk (*) after a wage expiration date indicates this rate is in effect for the duration of the project. Two asterisks (**) indicate this wage will increase during the project
+            </p>
+            
+            </div>
+            <div class="goldBg tabcontent2">
+            <h3 >SALARY COMPARISON TOOL</h3>
+            <p>Compare hundreds of careers and find out the salary and benefits 
+            you should be earning, based on where you live. It’s easy, quick and accurate.<br /><a href="http://www.indeed.com/salary" target="_blank">http://www.indeed.com/salary</a>
+            </p>
+            
+            <h3>Related articles</h3>
+
+            <ul class="pageLinks">
+            <li><a href="http://www.mycareerguide.com/career-options/articles/Top-10-Career-Advancement.html" target="_blank">Top 10 tips of Career Advancement</a></li>
+            <li> <a href="http://www.mycareerguide.com/salary-benefits/articles/salary-negotiation.html" target="_blank">Salary Negotiation</a></li>
+            <li><a href="http://www.mycareerguide.com/salary-benefits/articles/What-Do-Employees-Wish.html" target="_blank">What do employees wish for most (and how to get it)?</a></li>
+            </ul>
+            <button class="back_btn" onclick="back()">Back to Career Guidance</button>
+            </div>
+            </div>
+            
+            <div class="tabcontent" id="network">
+            <div class="tabcontent1">
+             <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'selfEval')">Self Evaluation</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'network')">Networking</a></li>
+                <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'branding')">Personal Branding</a></li>
+            </ul>
+              <p class="goldBg">Professional network services aren't only there to help promote the business. There are some that are services that help in connecting to other people. Those services may include a specific phone and/or Internet company or a company that helps to connect with other businesses.</p>
+              
+              <p>There are at least nine online professional networks that are being used. Those networks include iLook, LinkedIn, Facebook, Twitter, Plaxo, XING, Ning, Blogs, Yahoo Groups, Socialwalk, and Internal Company Network</p>
+                </div>
+              <div class="goldBg tabcontent2">
+                <h3>Networking groups in San Diego</h3>
+                 <ul class="pageLinks">
+                     <li><a href="http://www.meetup.com" target="_blank">Professional Networking Meet-up groups in San Diego</a>
+                     <p><a href="http://www.meetup.com" target="_blank"><img src="../images/Meet_Up_APP.png" alt="icon of meetup"/></a><br />Download the FREE Meet-up App</p></li>
+                     <li><a href="https://www.eventbrite.com/d/ca--san-diego/networking/?crt=regular&sort=best" target="_blank">Event Brite</a></li>
+                     <li> <a href="https://www.linkedin.com/jobs/networking-events-jobs-san-diego-ca" target="_blank">LinkedIn Events</a></li>
+                     <li> <a href="http://sandiego.netparty.com/events" target="_blank">The Worldwide Young Professionals Network</a></li>
+                 </ul>
+                 <button class="back_btn" onclick="back()">Back to Career Guidance</button>
+                 <img class="imgInsert" src="../images/networking_bg.jpg" />
+                </div>
+              </div>
+            
+            <div class="tabcontent" id="branding">
+             <div class="tabcontent1">
+             <ul class="sideMenu">
+                <li><a href="javascript:void(0)" class="tablinks btn1" onclick="showTab(event, 'selfEval')">Self Evaluation</a>
+                </li>
+                <li><a href="javascript:void(0)" class="tablinks btn2" onclick="showTab(event,'network')">Networking</a></li>
+                <li><a href="javascript:void(0)" class="tablinks btn3" onclick="showTab(event,'branding')">Personal Branding</a></li>
+            </ul>
+              <p class="goldBg">Developing your personal brand is essential for the advancement of your career and development as a leader.  Unfortunately, personal branding has become a “commoditized” term that has lost its intention as people have irresponsibly used social media as a platform to build their personal brand and increase their relevancy. </p>
+              <p>View your personal brand as a trademark; an asset that you must protect while continuously molding and shaping it.  Your personal brand is an asset that must be managed with the intention of helping others benefit from having a relationship with you and / or by being associated with your work and the industry you serve.</p>
+            </div>
+            <div class="tabcontent2">
+              <p>Personal Branding is a Leadership Requirement, not a Self-Promotion Campaign. Your brand is the NEW modern resume!</p>
+              <div class="goldBg">
+              <h3>Related Articles</h3>
+              <ul class="pageLinks">
+                  <li><a href="http://www.howdesign.com/featured/personal-branding" target="_blank">Visual Branding Identification</a></li>
+                  <li><a href="https://www.entrepreneur.com/article/250924" target="_blank">Entreprenueur Magazine: 5 Steps to Build Your Personal Brand</a></li>
+                  <li><a href="http://thenextweb.com/entrepreneur/2013/08/18/your-personal-brand-the-next-step-to-anything/" target="_blank">How to build your Personal Brand: The next step to anything</a></li>
+                  <li><a href="http://www.dummies.com/careers/find-a-job/personal-branding/personal-branding-for-dummies-cheat-sheet/" target="_blank">Personal Branding for Dummies Cheat Sheet</a></li>
+              </ul>
+               <button class="back_btn" onclick="back()">Back to Career Guidance</button>
+               <img class="imgInsert" src="../images/branding_bg2.jpg" />
+            </div>    
+            </div>
+            </div>
+        </aside>
+        <footer class="clearIt">
+           <nav>
+               <ul class="hover_underline">
+                <li><a href="../pages/about_us.html">About Us</a></li>
+                <li><a href="../pages/privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="../pages/contact_us.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <nav>
+              <ul class="social_media">
+                 <li>Follow Us:</li>
+                  <li><a href="#"><span data-icon="&#xea8d;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea90;" class ="navIcon"></span></a></li>
+                  <li><a href="#"><span data-icon="&#xea96;" class ="navIcon"></span></a></li>
+              </ul> 
+             </nav>
+       Jobstar&copy; 2016 -  All Rights Reserved
+       </footer>
+   </main>
+</body>
+</html>
